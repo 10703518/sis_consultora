@@ -12,7 +12,7 @@ $smarty = new Smarty;
 contarRegistros($db,"clientes");
 
 paginacion("clientes.php?", $smarty);
-
+ <h1>BIENVENIDOS</h1>
 $sql3 = $db->Prepare("SELECT *
                       FROM clientes
                       WHERE estado <> '0'

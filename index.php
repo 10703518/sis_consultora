@@ -26,6 +26,8 @@
   </head>
 
   <body id="page-top">
+    <h1>bienvenido</h1>
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
