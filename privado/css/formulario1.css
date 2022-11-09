@@ -1,0 +1,57 @@
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+#columna{
+	margin-top: 100px;
+	padding: 10px;
+	}
+#columna{
+   font-family: Helvetica;
+   text-align: center;
+   height: 40px;
+   font-size: 20px;
+   color: #000;
+}
+
+
+
+body {background-image: url(../imagenes/personal.jpg);}
+form {
+
+	padding: 60px;
+	max-width: 400px;
+	background-color:#E5E7E9 ;
+	margin: 0 auto;
+}
+form input,form textarea{
+	margin-bottom: 15px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: black;
+}
+.content-select{
+	max-width: 250px;
+	position: relative;
+}
+ 
+.content-select select{
+	margin-bottom: 30px;
+	width: 160%;
+	padding: 50px;
+	box-sizing: border-box;
+	color: black;
+}
+ 
+.content-select select:hover{
+	background: #B1E8CD;
+}
+form button{
+	background: #0174DF;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	color: white;
+	position: relative;
+	margin: 0 auto;
+}

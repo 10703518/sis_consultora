@@ -1,0 +1,7 @@
+SELECT u.clave
+						FROM usuarios u
+						WHERE u.usuario1 = admin
+						AND u.clave=123
+						admin
+						AND u.estado <> '0'
+					

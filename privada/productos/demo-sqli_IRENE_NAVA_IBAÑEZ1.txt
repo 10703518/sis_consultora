@@ -1,0 +1,8 @@
+SELECT pro.nombre, prod.producto, prod.caracteristica, prod.precio, prod.id_producto
+						FROM proveedores  pro, productos prod
+						WHERE pro.nombre LIKE ? 
+						AND prod.producto LIKE ?
+						AND prod.caracteristica LIKE ?
+						AND prod.precio LIKE ?
+						AND pro.id_proveedor=prod.id_proveedor
+						

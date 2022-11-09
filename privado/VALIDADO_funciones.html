@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULRIO 1 </title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/formulario1.css">
+	<script type="text/javascript" src="js/expresionesregulares.js"></script>
+	<script type="text/javascript" src="js/validacionFunciones.js"></script>
+</head>
+<body>
+<header>
+		<nav>
+			<ul id="menu">
+				<li><a href="../index.html">INICIO</a>  </li>
+				<li><a href="#">PARAMETROS</a>
+					<ul>
+						<li><a href="VALIDADO_trabajos.html">TRABAJOS</a></li>
+						<li><a href="VALIDADO_servicios.html">SERVICIOS</a></li>
+						<li><a href="VALIDADO_funciones.html">FUNCIONES</a></li>
+						<li><a href="VALIDADO_tipo.html">TIPO DE CLIENTE</a></li>
+						<li><a href="cliente.html">CLIENTES</a></li>
+                    </ul>
+				</li>
+                <li><a href="#">CONSULTORA</a>
+					<ul>
+                        <li><a href="VALIDADO_consultora.html">CONSULTORA</a></li>
+						<li><a href="VALIDADO_sucursales.html">SUCURSALES</a></li>
+						<li><a href="VALIDADO_personal.html">PERSONAL</a></li>
+                        <li><a href="VALIDADO_profesional.html">PERSONAL PROFESIONAL</a></li>
+                        <li><a href="VALIDADO_profesionales.html">PROFESIONES</a></li>
+                        </ul>
+				</li>
+				<li><a href="#">CONTACTO</a></li>
+			</ul>			
+		</nav>
+	</header>
+	<section id="columna">
+		<h2>FUNCIONES</h2>
+		<div id="subtitulo1"></div>
+		<form name="Sistema" action="funciones.php" method="post">
+		<input type="text" name="funcion" placeholder="*FUNCION">
+		<textarea  name="OTROS" placeholder="MENSAJE">
+		</textarea>
+		<input type="hidden" name="formulario" value="Funciones">
+		<span style=background-color:#F1948A >*DATOS OBLIGATORIOS </span>
+		<br>
+		<input type="button" name="boton" value="ENVIAR" class="boton" onclick="validar()">
+		<input type="reset" name="boton2" value="CANCELAR"class="boton" >
+	</form>
+	</section>
+</body>
+</html>
